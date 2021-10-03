@@ -1,0 +1,9 @@
+part of 'delete_monitoring_logbook_luar_cubit.dart';
+
+@immutable
+abstract class DeleteMonitoringLogbookLuarState {}
+
+class DeleteMonitoringLogbookLuarInitial extends DeleteMonitoringLogbookLuarState {}
+class DeleteMonitoringLogbookLuarProcess extends DeleteMonitoringLogbookLuarState {}
+class DeleteMonitoringLogbookLuarSuccess extends DeleteMonitoringLogbookLuarState {}
+class DeleteMonitoringLogbookLuarFail extends DeleteMonitoringLogbookLuarState {}
